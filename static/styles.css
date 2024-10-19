@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#results {
+    margin-top: 20px;
+}
+/* Styles for Results Box */
+.results-box {
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #eaeaea; /* Light border for definition */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Inner padding for spacing */
+    margin-top: 20px; /* Spacing from the title */
+}
+
+.results-box ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.result-item {
+    padding: 10px 0; /* Spacing between items */
+    border-bottom: 1px solid #eaeaea; /* Divider for each item */
+}
+
+.result-item:last-child {
+    border-bottom: none; /* Remove last item's border */
+}
+
+.year-publisher {
+    color: #555; /* Gray color for year and publisher */
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+/* Hover effect for results */
+.result-item:hover {
+    background-color: #f0f8ff; /* Light blue background on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+}
